@@ -1,0 +1,17 @@
+#!/bin/expect
+
+set timeout -1
+
+spawn /var/ossec/bin/manage_agents
+
+expect "Choose your action: A,E,L,R or Q:"
+sleep 2
+send -- "L\r"
+
+expect "** Press ENTER to return to the main menu."
+sleep 2
+send -- "\r"
+
+expect "Choose your action: A,E,L,R or Q:"
+sleep 2
+send -- "Q\r"

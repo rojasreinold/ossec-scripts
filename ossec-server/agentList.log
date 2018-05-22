@@ -1,0 +1,32 @@
+spawn /var/ossec/bin/manage_agents
+
+
+****************************************
+* OSSEC HIDS v2.9.3 Agent manager.     *
+* The following options are available: *
+****************************************
+   (A)dd an agent (A).
+   (E)xtract key for an agent (E).
+   (L)ist already added agents (L).
+   (R)emove an agent (R).
+   (Q)uit.
+Choose your action: A,E,L,R or Q: L
+
+Available agents: 
+   ID: 001, Name: testclient, IP: 10.0.0.13
+   ID: 002, Name: ansible, IP: 10.0.0.5
+
+** Press ENTER to return to the main menu.
+
+
+
+****************************************
+* OSSEC HIDS v2.9.3 Agent manager.     *
+* The following options are available: *
+****************************************
+   (A)dd an agent (A).
+   (E)xtract key for an agent (E).
+   (L)ist already added agents (L).
+   (R)emove an agent (R).
+   (Q)uit.
+Choose your action: A,E,L,R or Q: 
