@@ -1,5 +1,5 @@
 #!/bin/expect
-
+#Runs through ossec manager and prints the server ID
 set timeout -1
 
 spawn /var/ossec/bin/manage_agents
